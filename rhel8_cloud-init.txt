@@ -1,0 +1,13 @@
+[root@rhel8 ~]# rpm -ihv --test /tmp/cloud-init-18.5-7.el8.noarch.rpm
+警告: /tmp/cloud-init-18.5-7.el8.noarch.rpm: ヘッダー V3 RSA/SHA256 Signature、鍵 ID fd431d51: NOKEY
+エラー: 依存性の欠如:
+        net-tools は cloud-init-18.5-7.el8.noarch に必要とされています
+        policycoreutils-python3 は cloud-init-18.5-7.el8.noarch に必要とされています
+        python3-PyYAML は cloud-init-18.5-7.el8.noarch に必要とされています
+        python3-jinja2 は cloud-init-18.5-7.el8.noarch に必要とされています
+        python3-jsonpatch は cloud-init-18.5-7.el8.noarch に必要とされています
+        python3-jsonschema は cloud-init-18.5-7.el8.noarch に必要とされています
+        python3-oauthlib は cloud-init-18.5-7.el8.noarch に必要とされています
+        python3-prettytable は cloud-init-18.5-7.el8.noarch に必要とされています
+        python3-pyserial は cloud-init-18.5-7.el8.noarch に必要とされています
+        python3-requests は cloud-init-18.5-7.el8.noarch に必要とされています
